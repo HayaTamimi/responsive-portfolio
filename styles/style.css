@@ -7,6 +7,11 @@
     --japanese-font: "Cherry Bomb One", system-ui;
 }
 
+.name {
+    color: plum;
+    font-weight: bolder;
+    font-size: 50px;
+}
 body {
     font-family: var(--defult-font);
     background-color: var(--backround-color);
@@ -40,7 +45,7 @@ p {
 }
 
 .hero {
-        background-color: white;
+    background-color: white;
     border: 80px;
     border-radius: 20px;
     max-width: 700px;
@@ -67,4 +72,26 @@ p {
 .btn-branding:hover {
    background-color: var(--branding-color);
    color: white;
+}
+
+.about {
+    background-color: white;
+    border: 80px;
+    border-radius: 20px;
+    max-width: 700px;
+    margin: 90px auto;
+    padding: 40px;
+    text-align: center;
+    color: #8e7f93;
+
+}
+
+.about h2 {
+font-size: 20px;
+font-weight: bold;
+}
+
+.about p {
+    font-size: large;
+    color: #8e7f93;
 }
