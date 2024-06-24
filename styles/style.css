@@ -1,5 +1,6 @@
 :root {
     --branding-color: plum;
+    --btn-color: #E8DBEE;
     --paragraph-color: #8e7f93;
     --backround-color: #f7f7f7;
     --defult-font: "Lato", sans-serif;
@@ -55,10 +56,15 @@ p {
 }
 
 .btn-branding {
-    background-color: var(--branding-color);
+    background-color: var(--btn-color);
     border-radius: 4px;
     color: white;
     font-size: 18px;
     line-height: 27px;
     padding: 15px 30px;
+}
+
+.btn-branding:hover {
+   background-color: var(--branding-color);
+   color: white;
 }
