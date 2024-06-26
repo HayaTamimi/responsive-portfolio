@@ -74,7 +74,7 @@ p {
    color: white;
 }
 
-.about {
+.content-container {
     background-color: white;
     border: 80px;
     border-radius: 20px;
@@ -86,12 +86,8 @@ p {
 
 }
 
-.about h2 {
-font-size: 20px;
-font-weight: bold;
-}
-
-.about p {
+.content-container p {
     font-size: large;
     color: #8e7f93;
 }
+
