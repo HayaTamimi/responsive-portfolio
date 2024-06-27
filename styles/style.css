@@ -21,12 +21,14 @@ body {
 
 .hi {
   font-family: var(--japanese-font);
-  font-weight: 400;
   font-style: normal;
-  font-size: 60px;
+  font-size: 50px;
   color: var(--branding-color);
 }
 
+.hi-eng {
+    font-size: 20px;
+}
 h1 {
    font-family: var(--defult-font);
    font-size: 30px;
