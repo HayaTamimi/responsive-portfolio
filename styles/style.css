@@ -7,6 +7,14 @@
     --japanese-font: "Cherry Bomb One", system-ui;
 }
 
+.active {
+    color: #8e7f93 !important;
+}
+
+.nav-item {
+    padding: 0 60px;
+}
+
 a {
     color: #8e7f93;
 }
